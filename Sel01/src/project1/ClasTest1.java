@@ -62,7 +62,7 @@ public class ClasTest1 {
 		    WebElement skillDorpdown = driver .findElement(By.xpath("//Select[contains(@id,'Skills')]"));
 		    Actions action = new Actions(driver);
 		    action.moveToElement(skillDorpdown);
-		    
+		    //*********************************************
 
 		    cg.pause(4);
 
